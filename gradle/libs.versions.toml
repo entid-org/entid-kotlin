@@ -11,7 +11,7 @@ kotlin = "2.4.10"
 # library unusable, and the built-in Kotlin of the current Android Gradle plugin
 # is 2.2.
 kotlinCompatibility = "2.2.21"
-protobuf = "4.36.0"
+protobuf = "4.36.1"
 protobufPlugin = "0.10.0"
 detekt = "1.23.8"
 ktlint = "1.8.0"
