@@ -3,7 +3,7 @@
 
 // AGP 9 carries Kotlin support itself; a separate Kotlin plugin is refused.
 plugins {
-    id("com.android.library") version "9.3.2"
+    id("com.android.library") version "9.4.0"
 }
 
 android {
