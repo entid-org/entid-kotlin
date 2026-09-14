@@ -5,7 +5,7 @@
 # no dependency at all beyond the Kotlin standard library.
 
 [versions]
-kotlin = "2.4.10"
+kotlin = "2.4.20"
 # The Kotlin the published library is compatible with, which is lower than the
 # one that compiles it: a metadata version a consumer cannot read makes a
 # library unusable, and the built-in Kotlin of the current Android Gradle plugin
