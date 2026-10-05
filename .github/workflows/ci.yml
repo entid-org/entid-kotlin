@@ -43,7 +43,7 @@ jobs:
           packages: 'tools platform-tools platforms;android-36'
 
       - name: Set up Gradle
-        uses: gradle/actions/setup-gradle@9c971963bec38e04b3d30dcc455b5382be2fdbfb # v6.3.0
+        uses: gradle/actions/setup-gradle@3f5f9adaf7d9fecd50b5935e54106014257a94e6 # v6.4.0
         with:
           # `verify.sh` compiles and runs the code on the far end of the
           # supported range as well, through a Gradle toolchain that Gradle
@@ -86,7 +86,7 @@ jobs:
           java-version: '17'
 
       - name: Set up Gradle
-        uses: gradle/actions/setup-gradle@9c971963bec38e04b3d30dcc455b5382be2fdbfb # v6.3.0
+        uses: gradle/actions/setup-gradle@3f5f9adaf7d9fecd50b5935e54106014257a94e6 # v6.4.0
 
       - name: Fuzz the engine and the generator
         run: ./gradlew :entid:fuzz :generator:fuzz
@@ -114,7 +114,7 @@ jobs:
           java-version: '17'
 
       - name: Set up Gradle
-        uses: gradle/actions/setup-gradle@9c971963bec38e04b3d30dcc455b5382be2fdbfb # v6.3.0
+        uses: gradle/actions/setup-gradle@3f5f9adaf7d9fecd50b5935e54106014257a94e6 # v6.4.0
 
       # A key that exists for the length of this job and signs nothing anyone
       # will ever receive. It is here so that `scripts/release-bundle.sh` — the
